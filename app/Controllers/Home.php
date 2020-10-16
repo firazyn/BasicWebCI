@@ -7,6 +7,14 @@ class Home extends BaseController
 		return view('welcome_message');
 	}
 
+	public function show() {
+		$adat['nama'] = 'firaz';
+		$adat['jurusan'] = 'ilkomp';
+		echo view("mahasiswa/index", $adat);
+		echo view("mahasiswa/header");
+		echo view("mahasiswa/footer");
+	}
+
 	//--------------------------------------------------------------------
 
 }
