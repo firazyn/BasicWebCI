@@ -1,3 +1,11 @@
-<h1>Firaztori Yusuf Nurwanto</h1>
-<h2>1857051005</h2>
-<h2><?=$jurusan?></h2>
+<h1>Tabel</h1>
+<table>
+    <tr>
+        <td>Nama</td>
+        <td>Jurusan</td>
+    </tr>
+    <tr>
+        <td><?= $nama ?></td>
+        <td><?= $jurusan ?></td>
+    </tr>
+</table>
